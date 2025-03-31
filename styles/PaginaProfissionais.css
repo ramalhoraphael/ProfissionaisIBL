@@ -1,0 +1,116 @@
+@import url(index.css);
+
+html,
+body {
+  /* width: 100%;
+  height: 100vh; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body {
+  /* background-color: rgba(209, 126, 24, 0.68); */
+  /* background: linear-gradient(to right, #d17e18b0, #f39c12b0, #f1c40fb0); */
+  background: linear-gradient(
+    to right,
+    #0d3b39,
+    /* Azul muito escuro */ #103f44,
+    /* Azul escuro */ #155157,
+    /* Azul mais escuro */ #1a636b,
+    /* Azul profundo */ #1f6d77,
+    /* Azul escuro com um tom mais saturado */ #257682,
+    /* Azul com um pouco mais de saturação */ #2b7d8e,
+    /* Azul mais saturado */ #318690,
+    /* Azul profundo com mais saturação */ #3c92a1,
+    /* Azul com um tom mais claro e ainda escuro */ #479cb4
+      /* Azul mais suave, porém ainda escuro */
+  );
+}
+
+/* .logo-container {
+  background-color: #237a8b;
+  color: #f0f0f0;
+  font-size: 4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 10rem white;
+  margin: 1rem;
+} */
+
+h1 {
+  color: white;
+  padding: 5rem 0rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 1rem;
+}
+
+.card-img-profissional {
+  height: 8.4375rem !important;
+}
+
+.card h2 {
+  color: red;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.card h3 {
+  color: green;
+  padding: 0 1rem;
+}
+
+.card p {
+  font-size: 0.8rem;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.whatsapp-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+  text-decoration: none;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    height: 100vh;
+  }
+}
